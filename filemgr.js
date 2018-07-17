@@ -3,10 +3,10 @@ const fs = MongoClient;
 
 const database = 'mongodb://localhost:27017';
 // const database = 'mongodb://lab123:lab123@ds259255.mlab.com:59255/weatherapp';
-//const database = 'mongodb://paulc:abc123@ds129801.mlab.com:29801/placesdb';
+//const database =  'mongodb://places:realmadrid03@ds055495.mlab.com:55495/placesapp';
 
 const appname = 'placesapp';
-const collectionname = 'placescollection';
+const collectionname = 'placesappcollection';
 
 const saveData = newdata => {
   return new Promise((resolve, reject) => {
